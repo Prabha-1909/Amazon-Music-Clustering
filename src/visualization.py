@@ -38,6 +38,7 @@ def visualize_clusters():
     plt.figure(figsize=(12,6))
     sns.heatmap(cluster_summary, cmap="coolwarm")
     plt.title("Cluster Feature Comparison")
+    plt.savefig("outputs/heatmap.png")
     plt.show()
 
 
